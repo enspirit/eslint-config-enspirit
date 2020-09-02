@@ -6,6 +6,7 @@ module.exports = {
         "sourceType": "script",
         "ecmaFeatures": {}
     },
+    "parser": "babel-eslint",
     rules: {
         'indent': ['error', 2],
         'linebreak-style': ['error', 'unix'],
