@@ -41,7 +41,8 @@ module.exports = {
   },
   env: {
     mocha: true,
-    node: true
+    node: true,
+    es6: true
   },
   plugins: [
     'chai-friendly',
