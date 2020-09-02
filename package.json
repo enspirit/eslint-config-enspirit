@@ -1,0 +1,27 @@
+{
+  "name": "@enspirit/eslint-config-node",
+  "version": "0.0.1",
+  "description": "Eslint config for Enspirit's node projects",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Louis Lambeau",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enspirit/eslint-config-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/enspirit/eslint-config-node/issues"
+  },
+  "homepage": "https://github.com/enspirit/eslint-config-node#readme"
+}
