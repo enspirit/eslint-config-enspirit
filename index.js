@@ -3,9 +3,10 @@ const consoleLogRule = process.env.NODE_ENV === 'production' ? ['error', { allow
 module.exports = {
     "parserOptions": {
         "ecmaVersion": 11,
-        "sourceType": "script",
+        "sourceType": "module",
         "ecmaFeatures": {}
     },
+    "extends": "eslint:recommended",
     "parser": "babel-eslint",
     rules: {
         'indent': ['error', 2],
