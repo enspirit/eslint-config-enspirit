@@ -1,6 +1,6 @@
 {
   "name": "@enspirit/eslint-config-node",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Eslint config for Enspirit's node projects",
   "keywords": [
     "eslint",
