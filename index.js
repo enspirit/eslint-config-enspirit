@@ -37,7 +37,8 @@ module.exports = {
     'no-multiple-empty-lines': ['error', { 'max': 1 }],
     'no-const-assign': ['error'],
     'no-undef': ['error'],
-    'no-only-tests/no-only-tests': 'error'
+    'no-only-tests/no-only-tests': 'error',
+    'rules': { 'comma-dangle': ['error', 'never'] }
   },
   env: {
     mocha: true,
