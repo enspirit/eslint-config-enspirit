@@ -38,7 +38,7 @@ module.exports = {
     'no-const-assign': ['error'],
     'no-undef': ['error'],
     'no-only-tests/no-only-tests': 'error',
-    'rules': { 'comma-dangle': ['error', 'never'] }
+    'comma-dangle': ['error', 'never']
   },
   env: {
     mocha: true,
