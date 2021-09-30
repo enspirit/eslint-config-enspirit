@@ -9,9 +9,10 @@ module.exports = {
   "extends": "eslint:recommended",
   "parser": "babel-eslint",
   rules: {
+    'prefer-template': 1,
+    'template-curly-spacing': ["error", "never"],
     'curly': 2,
     'prefer-arrow-callback': 1,
-    'no-multi-spaces': 'off',
     'no-useless-escape': 1,
     'eqeqeq': 0,
     'no-autofix/eqeqeq': 1,
