@@ -9,6 +9,36 @@ module.exports = {
   "extends": "eslint:recommended",
   "parser": "babel-eslint",
   rules: {
+    'curly': 2,
+    'prefer-arrow-callback': 1,
+    'no-multi-spaces': 'off',
+    'no-useless-escape': 1,
+    'eqeqeq': 0,
+    'no-autofix/eqeqeq': 1,
+    'comma-dangle': ['error', 'always-multiline'],
+    'no-unused-expressions': [
+      2,
+      {
+        allowTernary: true,
+      },
+    ],
+    'no-multi-spaces': [
+      1,
+      {
+        exceptions: {
+          'Property': true,
+          'VariableDeclarator': true,
+          'ImportDeclaration': true,
+        },
+      },
+    ],
+    'quotes': [
+      2,
+      'single',
+      {
+        'avoidEscape': true,
+      },
+    ],
     'indent': ['error', 2],
     'linebreak-style': ['error', 'unix'],
     'quotes': ['error', 'single'],
@@ -20,7 +50,6 @@ module.exports = {
     'no-debugger': 'error',
     'no-unused-expressions': ['error'],
     'no-unused-vars': ['warn'],
-    'chai-friendly/no-unused-expressions': 2,
     'array-bracket-spacing': ['error', 'never'],
     'object-curly-spacing': ['error', 'always'],
     'space-before-function-paren': ['error', {
@@ -38,7 +67,7 @@ module.exports = {
     'no-const-assign': ['error'],
     'no-undef': ['error'],
     'no-only-tests/no-only-tests': process.env.NODE_ENV === 'test' ? 'error' : 'warn',
-    'comma-dangle': ['error', 'never']
+    'comma-dangle': ['error', 'always-multiline'],
   },
   env: {
     mocha: true,
