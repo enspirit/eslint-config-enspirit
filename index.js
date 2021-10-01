@@ -14,9 +14,7 @@ module.exports = {
     'curly': 2,
     'prefer-arrow-callback': 1,
     'no-useless-escape': 1,
-    'eqeqeq': 0,
-    'no-autofix/eqeqeq': 1,
-    'comma-dangle': ['error', 'always-multiline'],
+    'eqeqeq': 2,
     'no-unused-expressions': [
       2,
       {
@@ -60,7 +58,6 @@ module.exports = {
     }],
     'space-before-blocks': ['error', 'always'],
     'keyword-spacing': ['error', { 'before': true, 'after': true }],
-    'no-multi-spaces': ['error'],
     'space-infix-ops': ['error', { 'int32Hint': false }],
     'space-in-parens': ['error', 'never'],
     'arrow-spacing': ['error', { 'before': true, 'after': true }],
