@@ -10,12 +10,12 @@
   "author": "Louis Lambeau",
   "main": "index.js",
   "dependencies": {
-    "@babel/eslint-parser": "^7.24.7",
-    "eslint-plugin-no-only-tests": "^2.6.0",
-    "eslint-plugin-chai-friendly": "^0.7.2"
+    "@babel/eslint-parser": "^7.25.1",
+    "eslint-plugin-no-only-tests": "^3.3.0",
+    "eslint-plugin-chai-friendly": "^1.0.1"
   },
   "devDependencies": {
-    "eslint": "^7.1.0"
+    "eslint": "^9.11.1"
   },
   "engines": {
     "node": ">=0.10.0"
